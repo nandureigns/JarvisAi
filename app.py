@@ -11,7 +11,6 @@ import os
 import pytz
 
 TOKEN = os.getenv('TOKEN')
-
 app = FastAPI()
 chat_memory = {}
 
