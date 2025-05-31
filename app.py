@@ -171,7 +171,6 @@ application = Application.builder().token(TOKEN).build()
 application.add_handler(CommandHandler("start", start))
 application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, chat))
 
-
 @app.post("/webhook")
 async def webhook(webhook_data: Dict[Any, Any]):   
     await application.initialize()
