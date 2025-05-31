@@ -148,7 +148,7 @@ This prompt ensures you remain helpful, professional, and aligned with your role
         memory.append({"role": "assistant", "content": reply})
         chat_memory[user_id] = memory[-50:]  
     except Exception as Errors:
-        await context.bot.send_message(chat_id=7901308532, text=f"Error: {str(Errors)} data: {secondresponse.text}")
+        # await context.bot.send_message(chat_id=None, text=f"Error: {str(Errors)} data: {secondresponse.text}")
         await kk.edit_text("Sorry, something went wrong.")
         return
     
