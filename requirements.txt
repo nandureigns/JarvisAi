@@ -1,0 +1,4 @@
+requests
+FastAPI
+python-telegram-bot
+pytz
