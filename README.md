@@ -1,6 +1,7 @@
 # JarvisAI
 
-**JarvisAI** is a powerful and ultra-fast AI chatbot for Telegram, built using `python-telegram-bot`. It can perform real-time interactions and provide web search and image generation capabilities.
+**JarvisAI** is a powerful and ultra-fast AI chatbot for Telegram, 
+built using `python-telegram-bot`. It can perform real-time interactions and provide web search and image generation capabilities.
 
 ## Features
 
