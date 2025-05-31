@@ -61,8 +61,7 @@ async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = user.id
     user_name = user.first_name if user.first_name else update.message.chat.title
     user_message = update.message.text
-
-    # Expanded system prompt (comprehensive but not excessively long)
+    
     SYSTEM_PROMPT = f"""You are Jarvis, an advanced and helpful AI assistant.
 Last trained on Tuesday, May 13, 2025.
 You're a Telegram bot named Jarvis, developed by @XBOTSUPPORTS.
