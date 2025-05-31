@@ -5,10 +5,10 @@ built using `python-telegram-bot`. It can perform real-time interactions and pro
 
 ## Features
 
-- ⚡ Real-time responses  
-- 🌐 Web search integration  
-- 🚀 Ultra-fast performance  
-- 🖼️ Image generation support  
+- Real-time responses  
+- Web search integration  
+- Ultra-fast performance  
+- Image generation support  
 
 ## Deployment
 
