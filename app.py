@@ -10,7 +10,7 @@ from fastapi import FastAPI, Request
 import os
 import pytz
 
-TOKEN = os.getenv('7039366019:AAHwy5EgHFSX-hW8hSPEZa90VRNJyWsLgl')
+TOKEN = os.getenv("7358758559:AAEWhzrwLx5PyBEI5xv1W3P67yWeNdIFga4")
 app = FastAPI()
 chat_memory = {}
 
